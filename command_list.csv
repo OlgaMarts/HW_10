@@ -1,0 +1,15 @@
+    1  cd'/c/Users/opmar/Desktop/QA test/HW_10'
+    2  cd '/c/Users/opmar/Desktop/QA test'
+    3  cd '/c/Users/opmar/Desktop/QA test/HW_10'
+    4  vim '/c/Users/opmar/Desktop/QA test/HW_10/develop_test.txt'
+    5  git status
+    6  git add '/c/Users/opmar/Desktop/QA test/HW_10/develop_test.txt'
+    7  git status
+    8  git commit -m "Fourth commit"
+    9  git log -5
+   10  cd '/c/Users/opmar/Desktop/QA test'
+   11  git checkout main
+   12  cd '/c/Users/opmar/Desktop/QA test/HW_10'
+   13  git checkout main
+   14  git merge develop
+   15  history > command_list.csv
